@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <form>
+
+            <div class="row">
+                <h2>Ficha Técnica Publisher</h2>
+                
+                <div class="input-group input-group-icon" ><input type="text" placeholder="URL Sitio " />
+                    <div class="input-icon"><i class="fa-solid fa-house"></i></div>
+                </div>
+                <div class="input-group input-group-icon" ><input type="text" placeholder="Lenguaje del Sitio " />
+                    <div class="input-icon"><i class="fa-solid fa-code"></i></div>
+                </div>
+                <div class="input-group input-group-icon"><input type="text" placeholder="Framework del Sitio" />
+                    <div class="input-icon"><i class="fa-solid fa-gears"></i></div>
+                </div>   
+                  
+            </div>
+
+            <div class="row">
+                <div>
+                <h4>¿Tiene Plugin para administrar los anuncios?</h4>
+                <div class="input-group"><input id="plugin_si" type="radio" name="plugin" value="Si" /><label for="plugin_si">Si</label><input id="plugin_no" type="radio" name="plugin" value="No" /><label for="plugin_no">No</label></div>
+                <div class="input-group input-group-icon"><input type="text" placeholder="En caso de tener, nombre del Plugin" />
+                    <div class="input-icon"><i class="fa-solid fa-play"></i></div>
+                </div>  
+                </div>                
+            </div>
+
+            <div class="row">
+                <div>
+                <h4>¿Tiene las credenciales de acceso?</h4>
+                <div class="input-group"><input id="credenciales_si" type="radio" name="credenciales" value="Si" /><label for="credenciales_si">Si</label><input id="credenciales_no" type="radio" name="credenciales" value="No" /><label for="credenciales_no">No</label></div>
+                <div class="input-group input-group-icon"><input type="text" placeholder="Usuario" />
+                    <div class="input-icon"><i class="fa-solid fa-user"></i></div>
+                </div>  
+                <div class="input-group input-group-icon"><input type="text" placeholder="Contraseña" />
+                    <div class="input-icon"><i class="fa-solid fa-key"></i></div>
+                </div> 
+                </div>                
+            </div>
+
+           <div class="row">
+                <div>
+                <h2>Implementación de los Scripts</h2>
+                <h4>¿Puede utilizar 3 scripts diferentes? </h4>
+                <div class="input-group"><input id="scripts_si" type="radio" name="scripts" value="Si" /><label for="scripts_si">Si</label><input id="scripts_no" type="radio" name="scripts" value="No" /><label for="scripts_no">No</label></div>
+                </div>  
+                
+                <div>
+                    <h4>¿Tiene acceso FTP?</h4>
+                    <div class="input-group"><input id="ftp_si" type="radio" name="ftp" value="Si" /><label for="ftp_si">Si</label><input id="ftp_no" type="radio" name="ftp" value="No" /><label for="ftp_no">No</label></div>
+                </div>   
+                
+                <div>
+                    <h4>¿Utiliza CDN?</h4>
+                    <div class="input-group"><input id="cdn_si" type="radio" name="cdn" value="Si" /><label for="cdn_si">Si</label><input id="cdn_no" type="radio" name="cdn" value="No" /><label for="cdn_no">No</label></div>
+                </div> 
+
+                <div>
+                    <h4>¿Utiliza algun Plugin de Caché?</h4>
+                    <div class="input-group"><input id="cachesi" type="radio" name="cache" value="Si" /><label for="cache_si">Si</label><input id="cache_no" type="radio" name="cache" value="No" /><label for="cache_no">No</label></div>
+                </div> 
+                           
+            </div>
+
+            
+        </form>
+    </div>
+</body>
+</html>
